@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserWin2</class>
+ <widget class="QWidget" name="UserWin2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>623</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	background-color : #989898;
+	padding : 0px;
+	border : 1px solid black;
+	color : rgb(0, 0, 111);
+	font: 63 19pt &quot;Yrsa SemiBold&quot;;
+}
+
+QLabel{
+		border:2px;
+		padding-left: 2px;
+}
+
+QListWidget{
+	border : 3px solid black;
+}
+
+QPlainTextEdit{
+	border : 3px solid black;
+}
+
+QPushButton{
+	border: 5px solid #878787;
+	border-radius : 15px;
+}
+
+QPushButton::hover{
+	background-color : yellow;
+}
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QListWidget" name="listWidget">
+         <property name="styleSheet">
+          <string notr="true">QListWidget{
+	background-color : gray;	
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPlainTextEdit" name="plainTextEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="beckBtn">
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="printerBtn">
+         <property name="text">
+          <string>Print</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cartBtn">
+         <property name="text">
+          <string>Cart</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="clearBtn">
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

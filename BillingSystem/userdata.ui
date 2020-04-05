@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserData</class>
+ <widget class="QWidget" name="UserData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	background-color:  rgb(193, 193, 193);
+	color : rgb(71, 0, 107);
+	font: 75 18pt &quot;Waree&quot;;
+}
+
+QLabel{
+	border-radius :  27px;
+	background-color : rgb(255, 248, 167);
+	padding: 0px;
+	margins: 0px;
+	padding-left : 10px;
+}
+
+QPushButton{
+	border: 5px solid #a1a1a1;
+	border-radius: 15px;
+}
+
+QPushButton#backBtn::hover{
+		background-color : red;
+		border: 4px solid rgb(255, 71, 120);
+}
+
+QPushButton#okBtn::hover{
+		background-color : green;
+		border: 4px solid rgb(182, 255, 143);	
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">*{
+	background-color:  rgb(193, 193, 193);
+	font: 75 italic 28pt &quot;Amiri&quot;;
+	padding-left: 170px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Enter User Details</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Enter Your Name :- </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Enter Phone Number :- </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Enter Email Id :- </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLineEdit" name="nameLine"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="phoneLine"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="emailLine"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="backBtn">
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okBtn">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

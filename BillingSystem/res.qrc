@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>ShopeKeepper.png</file>
+        <file>User.png</file>
+    </qresource>
+</RCC>
